@@ -298,9 +298,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 228801534}
-        m_MethodName: Log
-        m_Mode: 5
+      - m_Target: {fileID: 887016508}
+        m_MethodName: Hello
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -630,9 +630,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 228801534}
-        m_MethodName: Log
-        m_Mode: 5
+      - m_Target: {fileID: 887016508}
+        m_MethodName: MeatEaters
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -856,6 +856,7 @@ MonoBehaviour:
   pig: {fileID: 1157437131242584, guid: b4ef08bb34d7e8d42a322a3fb477bd93, type: 2}
   tiger: {fileID: 1635293449333400, guid: 9d8f88e4e4860ac489141755f7175db2, type: 2}
   zebra: {fileID: 1072593225874480, guid: ca5452b56f32abc46bc83ba2db5f04fd, type: 2}
+  inputText: {fileID: 351789103}
 --- !u!1 &1096552935
 GameObject:
   m_ObjectHideFlags: 0
@@ -1336,9 +1337,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 228801534}
-        m_MethodName: Log
-        m_Mode: 5
+      - m_Target: {fileID: 887016508}
+        m_MethodName: Tricks
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine

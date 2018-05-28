@@ -9,12 +9,12 @@ namespace Zoo
     {
 
         public GameObject balloon;
+
         public bool herbivore;
         public bool carnivore;
-        [SerializeField]
-        private bool trick;
-        [SerializeField]
-        private string animalName;
+        public bool trick;
+        public string animalName;
+
         [SerializeField]
         private string helloText;
         [SerializeField]
@@ -24,14 +24,37 @@ namespace Zoo
 
         private void Start()
         {
+
+        }
+
+        public void SayHello()
+        {
+            balloon.SetActive(true);
+            balloon.GetComponentInChildren<Text>().text = helloText;
         }
 
         public void EatLeaves()
         {
-            if (herbivore == true)
+            balloon.SetActive(true);
+            balloon.GetComponentInChildren<Text>().text = leaveEatingText;
+        }
+
+        public void EatMeat()
+        {
+            balloon.SetActive(true);
+            balloon.GetComponentInChildren<Text>().text = meatEatingText;
+        }
+        public void PerformTrick()
+        {
+            StartCoroutine(DoTrick());
+        }
+
+        IEnumerator DoTrick()
+        {
+            for (int i = 0; i < 360; i++)
             {
-                balloon.SetActive(true);
-                balloon.GetComponentInChildren<Text>().text = leaveEatingText;
+                transform.localRotation = Quaternion.Euler(i, 0, 0);
+                yield return new WaitForEndOfFrame();
             }
         }
     }
