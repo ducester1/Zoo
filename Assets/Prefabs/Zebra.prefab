@@ -40,7 +40,7 @@ GameObject:
   - component: {fileID: 222407773885952772}
   - component: {fileID: 114044554270781382}
   - component: {fileID: 114038196750448500}
-  - component: {fileID: 114782059285527604}
+  - component: {fileID: 114958874672739904}
   m_Layer: 5
   m_Name: Zebra
   m_TagString: Untagged
@@ -180,7 +180,7 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: nomnomnom oink thx
---- !u!114 &114782059285527604
+--- !u!114 &114958874672739904
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -188,12 +188,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 1072593225874480}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60302699e44f2ac4e9f9fd64eb4c65bc, type: 3}
+  m_Script: {fileID: 11500000, guid: 25c39ab9ce61ebb4f9702d1bc4432f98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Balloon: {fileID: 1043684593461274}
-  text: {fileID: 114601203191200772}
-  name: 
+  balloon: {fileID: 1043684593461274}
+  herbivore: 1
+  carnivore: 0
+  trick: 0
+  animalName: Marty
+  helloText: zebra zebra
+  leaveEatingText: munch munch zank yee bra
+  meatEatingText: 
 --- !u!222 &222407773885952772
 CanvasRenderer:
   m_ObjectHideFlags: 1

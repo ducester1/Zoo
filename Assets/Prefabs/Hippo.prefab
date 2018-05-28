@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 222739628119469348}
   - component: {fileID: 114526069506724724}
   - component: {fileID: 114014464807404962}
-  - component: {fileID: 114938508428900998}
+  - component: {fileID: 114868536999788064}
   m_Layer: 5
   m_Name: Hippo
   m_TagString: Untagged
@@ -180,7 +180,7 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
---- !u!114 &114938508428900998
+--- !u!114 &114868536999788064
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -188,12 +188,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 1503268068017508}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64dda0b81d7157140b79833d4b894498, type: 3}
+  m_Script: {fileID: 11500000, guid: 25c39ab9ce61ebb4f9702d1bc4432f98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
-  Balloon: {fileID: 1915205937995882}
-  text: {fileID: 114347544836270496}
+  balloon: {fileID: 1915205937995882}
+  herbivore: 1
+  carnivore: 0
+  trick: 0
+  animalName: Henk
+  helloText: splash
+  leaveEatingText: munch munch lovely
+  meatEatingText: 
 --- !u!222 &222008257743557992
 CanvasRenderer:
   m_ObjectHideFlags: 1

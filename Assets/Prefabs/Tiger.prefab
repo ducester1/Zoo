@@ -40,7 +40,7 @@ GameObject:
   - component: {fileID: 222741092780279670}
   - component: {fileID: 114343553296528356}
   - component: {fileID: 114391943742851536}
-  - component: {fileID: 114971796148678666}
+  - component: {fileID: 114935593352139960}
   m_Layer: 5
   m_Name: Tiger
   m_TagString: Untagged
@@ -180,7 +180,7 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: nomnomnom oink thx
---- !u!114 &114971796148678666
+--- !u!114 &114935593352139960
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -188,12 +188,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 1635293449333400}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e5242724db835f940bb063c316dc5ea0, type: 3}
+  m_Script: {fileID: 11500000, guid: 25c39ab9ce61ebb4f9702d1bc4432f98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
-  Balloon: {fileID: 1088522889311824}
-  text: {fileID: 114859519199696330}
+  balloon: {fileID: 1088522889311824}
+  herbivore: 0
+  carnivore: 1
+  trick: 1
+  animalName: Wally
+  helloText: rraaaarww
+  leaveEatingText: 
+  meatEatingText: nomnomnom thx wubalubadubdub
 --- !u!222 &222206507337194996
 CanvasRenderer:
   m_ObjectHideFlags: 1

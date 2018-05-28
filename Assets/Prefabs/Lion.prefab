@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 222219833255553006}
   - component: {fileID: 114964853913542288}
   - component: {fileID: 114051299213656744}
-  - component: {fileID: 114755402308563808}
+  - component: {fileID: 114211428328667892}
   m_Layer: 5
   m_Name: Lion
   m_TagString: Untagged
@@ -81,6 +81,25 @@ MonoBehaviour:
   top: -250
   bottum: 250
   speed: 100
+--- !u!114 &114211428328667892
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1272796901603832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25c39ab9ce61ebb4f9702d1bc4432f98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  balloon: {fileID: 1907526514099044}
+  herbivore: 0
+  carnivore: 1
+  trick: 0
+  animalName: Elsa
+  helloText: roooaoaaaaar
+  leaveEatingText: 
+  meatEatingText: nomnomnom thx mate
 --- !u!114 &114249459952543710
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -153,20 +172,6 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
---- !u!114 &114755402308563808
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1272796901603832}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c8cbe920bfe12a64588ef6441b082ea2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Balloon: {fileID: 1907526514099044}
-  text: {fileID: 114407144777274712}
-  name: 
 --- !u!114 &114964853913542288
 MonoBehaviour:
   m_ObjectHideFlags: 1
